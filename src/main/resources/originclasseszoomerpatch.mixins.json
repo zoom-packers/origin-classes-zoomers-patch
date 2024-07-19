@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pandaismyname1.originclasseszoomerpatch.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "originclasseszoomerpatch.refmap.json",
+  "mixins": [
+    "AbstractVillagerMixinPatch"
+  ],
+  "client": [
+    "ClientSideMerchantMixinPatch"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
